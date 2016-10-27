@@ -4,7 +4,7 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  博客首页: /Home
+  博客首页: /
   作品展示: /works
   留言打卡: /about
   前端导航: /FrontEndGuide
@@ -24,23 +24,23 @@ favicon: img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
-  github: "https://github.com/luuman"
-  zhihu: "#"
-  weibo: "#"
-  google: "#"
-  twitter: "#"
-  linkedin: "#"
-  # facebook: "#"
+  mail: "mailto:liuxing0514@gmail.com"
+  github: "https://github.com/S1ngS1ng"
+  linkedin: "https://www.linkedin.com/in/liuxing0514"
+  zhihu: "https://www.zhihu.com/people/liuxing0514"
+  # weibo: "http://weibo.com/star0514"
+  google: "https://plus.google.com/u/0/115378822919090728542"
+  # twitter: "#"
+  facebook: "https://www.facebook.com/xing.liu.5688"
   # rss: /atom.xml
   # pinterest: "#"
-  # QQ: "#"
+  QQ: "tencent://message/?uin=1025583636"
   # wechat: "#"
   # douban: "#"
   # pinboard: "#"
   # stackoverflow: "#"
   # Instagram: "#"
-  # segmentfault: "#"
+  segmentfault: "https://segmentfault.com/u/s1ngs1ng"
 
 # >>> Conments 评论系统 <<<
 # Chose ONE as your comment system and keep others disable.
@@ -103,7 +103,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: 大航海 #修改more>>的文字
+excerpt_link: 阅读全文 #修改more>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
@@ -126,7 +126,7 @@ friends:
   name: http://luuman.github.io/
 
 #是否开启“关于我”。
-aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中
+aboutme: 修身治国平天下，洗脸刷牙写代码
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -158,14 +158,14 @@ google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
 baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
-google_analytics:
+google_analytics: UA-86282270-1
 baidu_analytics:
 
 # 不蒜子网站计数设置
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
   on: true
-  site_visit: 海贼到访数
+  site_visit: 大神到访数
   page_visit: 本页阅读量
 
 # A标签提示
