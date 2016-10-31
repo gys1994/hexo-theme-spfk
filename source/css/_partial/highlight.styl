@@ -3,14 +3,14 @@
 @import "_partial/customise/code-block"
 
 code-bgc = highlight-background
-code-tag = highlight-yellow 
-code-attr = highlight-blue
+// code-tag = highlight-yellow
+// code-attr = highlight-blue
 code-word = highlight-foreground
-code-value = highlight-green
+// code-value = highlight-green
 code-number = highlight-aqua
-code-keyword = highlight-purple
+// code-keyword = highlight-purple
 code-comment = highlight-comment
-code-argument = highlight-orange
+// code-argument = highlight-orange
 
 $code-block
   background: code-bgc
@@ -252,25 +252,16 @@ $line-numbers
           &:hover
             text-decoration: underline
 
+//-- General --//
 pre
-  .doctype
-    color: #586e75
-  .tag
-    color: #839496
-  .title
-    color: #66D9EF
-  .string
-    color: #2aa198
-  .attribute
-    color: #b58900
   .cpp
   .annotation
   .command
     color: color-link
   .comment
-    color: code-comment
+    color: highlight-comment
   .keyword
-    color: code-keyword
+    color: highlight-keyword
   .function
   .class .params
     color: #66D9EF
@@ -298,3 +289,30 @@ pre
   .operator
   .link_url
     color: color-link
+
+//-- HTML --//
+figure.html pre
+  .doctype
+    color: html-attr
+  .tag
+    color: html-tag
+  .attr
+    color: html-attr
+  // TODO: Why it refers to JS function name?
+  .title
+    color: #66D9EF
+  .string
+    color: html-value
+
+//-- CSS --//
+figure.css pre
+  [class^="selector"]
+    color: css-tag
+  .attribute
+    color: css-attr
+  .value
+    color: css-value
+  .built_in
+    color: css-built-in
+  .string
+    color: css-string
