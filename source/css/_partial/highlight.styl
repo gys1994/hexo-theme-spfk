@@ -7,10 +7,10 @@ code-bgc = highlight-background
 // code-attr = highlight-blue
 code-word = highlight-foreground
 // code-value = highlight-green
-code-number = highlight-aqua
+code-number = highlight-number
 // code-keyword = highlight-purple
 code-comment = highlight-comment
-// code-argument = highlight-orange
+code-argument = highlight-argument
 
 $code-block
   background: code-bgc
@@ -21,7 +21,7 @@ $code-block
   line-height: font-size * line-height
 
 $line-numbers
-  color: code-number
+  color: highlight-line-number
 
 .article-entry
   pre, code
@@ -316,3 +316,17 @@ figure.css pre
     color: css-built-in
   .string
     color: css-string
+  .number
+    color: code-number
+
+//-- JavaScript --//
+figure.javascript pre
+  // Function name
+  .function
+    color: highlight-foreground
+  .title
+    color: js-function-name
+  .number
+    color: code-number
+  .string
+    color: js-string
