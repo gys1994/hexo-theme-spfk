@@ -65,8 +65,8 @@ $line-numbers
       word-wrap: break-word
       white-space: pre
     a
-      border: dashed 1px #000
-      padding: 8px 8px
+      border: solid 1px #000
+      padding: 0 4px
       border-radius: 5px
       background-color: #2F2E2E
       word-wrap: break-word
@@ -81,18 +81,30 @@ $line-numbers
       font: normal normal normal 14px/1 FontAwesome
     a:hover
       color: #FFF
+
+  // Changed by S1ngS1ng
   h1
-    font-size: 1.5em
-    margin-top: 30px
+    //font-size: 2em
+    //margin-top: 30px
+    font-size: 2em
+    margin: 1em 0
+    padding: 0
+    font-weight: bold
+    text-align: center
   h2
-    font-size: 1.3em
-    margin-top: 20px
-    font-weight: 300
-    padding-bottom: 5px
-    margin: .5em auto
-    font-weight: 700
-    color: #999
-    padding-bottom: 5px
+    //font-size: 1.3em
+    //margin-top: 20px
+    //font-weight: 300
+    //padding-bottom: 5px
+    //margin: .5em auto
+    //font-weight: 700
+    //color: #999
+    //padding-bottom: 5px
+    //text-align: center
+    font-size: 1.5em
+    margin-top: 0.8em
+    padding: 0.5em
+    font-weight: bold
     text-align: center
   h2::after,h2::before
     content: " —— "
@@ -161,18 +173,19 @@ $line-numbers
   li:hover
     background-color: #2E2E2E
 
-  .highlight::before
-    content: attr(data-lang) " code"
-    display: block
-    background-color: #0083A0
-    margin: 0 -10px 16px -10px
-    padding: 8px 16px
-    color: #EFEFEF
-    font-family: Lato,"Microsoft YaHei",sans-serif
-    font-size: 1.1rem
-    text-shadow: none
-    border-bottom: dashed 1px #000
-    text-transform:capitalize
+  // Commentted out by S1ngS1ng
+  //.highlight::before
+  //  content: attr(data-lang) " code"
+  //  display: block
+  //  background-color: #0083A0
+  //  margin: 0 -10px 16px -10px
+  //  padding: 8px 16px
+  //  color: #EFEFEF
+  //  font-family: Lato,"Microsoft YaHei",sans-serif
+  //  font-size: 1.1rem
+  //  text-shadow: none
+  //  border-bottom: dashed 1px #000
+  //  text-transform:capitalize
   .highlight
     @extend $code-block
     border-radius: 4px
