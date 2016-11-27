@@ -82,7 +82,7 @@ background:
 
 highlight_style:
   on: true
-  inline_code: 6
+  inline_code: S1ngS1ng
   code_block: 6
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
