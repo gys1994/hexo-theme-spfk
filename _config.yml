@@ -123,7 +123,8 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: http://luuman.github.io/
+  luuman: http://luuman.github.io/
+  浮生: http://www.fengchenguyi.com/
 
 #是否开启“关于我”。
 aboutme: 修身治国平天下，洗脸刷牙写代码
